@@ -1,0 +1,54 @@
+
+COP 3767 - Operating Systems    
+Professor: Caryl Rahn
+
+Assignment 3
+
+This program is worth 10 points total. Partial credit will be given.
+
+ 
+ Part 1 - Worth 5 points. Using Windows Batch in command prompt. 
+   - Call this program program1.bat
+   - Implement mod by 0 (find the remainder), with error trapping, using if and while() commands,
+       
+   How:
+   - Append your name, current date and time to a NEW file called results.txt
+   - Use a simulated while loop.
+   - If the user enters the value 999 for the first or the second number, you must
+     exit the while loop immediately. 
+   - Ask the user to enter the first number.
+   - Ask the user to enter the second number.
+   - If the second number is ZERO inform the user and ask for a correct second number.
+   - If the second number is NOT a zero, do the operation, display all numbers in this
+     computation using labels, and add them to the results.txt file.
+
+ 
+ Part 2 - Worth 2.5 points. Using Windows Batch in command prompt. 
+   - Call this program program2.bat
+   - Create a batch file that when executed will display the following. Include a pause
+     between each command
+     1 - For the current computer find the path that is used to search for executable programs.
+     2 - Find fiu.edu's ip address.                           
+     3 - Show the active connections in the current computer   
+     4 - Find the routers used to reach google.com            
+     5 - The IP address of the current computer                           
+ 
+ 
+ Part 3 - Worth 2.5 points. Using Linux Terminal Mode find:
+   - Call this program program3.sh
+     1 - For the current computer find the path that is used to search for executable programs.
+     2 - Find fiu.edu's ip address.                           
+     3 - Show the active connections in the current computer.  
+     4 - Find the routers used to reach google.com            
+     5 - The IP address of the current computer              
+
+     
+      
+ 
+Submit a zip file named FirstnameLastnameA3.zip containing the following into the Blackboard dropbox for Assignment 3. 
+ - program1.bat
+ - program2.bat
+ - program3.sh
+
+ Do not include any other files or folders in your submission.
+                                             
