@@ -1,6 +1,6 @@
 REM Action.exe begins download of excel file in another computer and saves it to network drive, wait loop till done
 ECHO
-start /wait "C:\Action(s).exe" "C:\OtherAction.exe"
+start /wait "C:\Action.exe" "C:\ActionParametersOrFile.txt"
 :WAITLOOP
 tasklist /FI "IMAGENAME eq ProcessName.exe" 2>NUL | find /I /N "ProcessName.exe">NUL
 if "%ERRORLEVEL%"=="0" goto RUNNING
